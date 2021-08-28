@@ -1,0 +1,144 @@
+@font-face {
+    font-family: cur;
+    src: url('./../fonts/Allison-Regular.ttf');
+}
+
+.dark {
+    color: white;
+    background-color: black;
+}
+
+.ipro{
+    font-family: cur;
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 2px;
+    
+}
+
+.navbarsHOME{
+    position: sticky;
+    top: 0px;
+    background-color: orange;
+    z-index: 99;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .ipro {
+     text-align: center;
+    }
+  }
+
+  .i{
+      color:orangered ;
+      /* font-family: cur; */
+      font-size: 35px;
+      font-weight: 600;
+  }
+
+  .roun{
+      border-radius: 50%;
+  }
+
+  .iproPIC{
+      display: flex;
+      margin-top: 65px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      background-color: white;
+      position: relative;
+  }
+.imgf{
+    position: relative;
+    bottom: 135px;
+}
+  .bbk{
+      padding: 12px;
+  }
+
+  .nameINFO{
+      letter-spacing: 3px;
+      transition: 0.5s;
+     
+  }
+
+  .nameinfo{
+      position: relative;
+      bottom: 360px;
+  }
+
+  .imgfChakra{
+      position: relative;
+      bottom: 350px;
+  }
+
+  .spaceBlank{
+      width: 100%;
+      height: 106px;
+      background-color: black;
+  }
+
+  .nameINFO:hover{
+      letter-spacing: 5px;
+      
+  }
+
+  .con {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+.con h6 a {
+    color: orangered;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+
+
+.address{
+    position: relative;
+    bottom: 345px;
+}
