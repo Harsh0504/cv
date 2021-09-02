@@ -343,3 +343,17 @@ tr th {
     
     
   }
+
+
+  ::-webkit-scrollbar{
+
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    
+    background-image: linear-gradient(orangered,wheat);
+   
+      border-radius: 20px;
+  }
+
